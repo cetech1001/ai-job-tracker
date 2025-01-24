@@ -23,7 +23,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - /app/node_modules
+      - /app/.venv
       - ./backend:/app
   frontend:
     build:
